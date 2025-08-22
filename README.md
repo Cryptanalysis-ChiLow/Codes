@@ -11,7 +11,7 @@ This is the repository for the paper "Cryptanalysis of ChiLow". This repository 
   - Distinguishers D32.txt: We have listed the good distinguishers for D32.
   - Distinguishers D40.txt: We have listed the good distinguishers for D40.
 
-The search for the entire distinguisher is divided into three parts: the differential trail, the intermediate part, and the linear trail. 
+The search for the entire distinguisher is divided into three parts: the differential trail, the middle connection part, and the linear trail. 
 The search for the differential trail and linear trail can be accomplished by diff_trail_search.cpp and linear_trail_search.cpp respectively. 
 For the search of the intermediate part, it actually involves calculating the correlation of a differential linear pair, which can be done through calculate_correlation.cpp.
 
